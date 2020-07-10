@@ -30,6 +30,11 @@ module.exports = {
         }
       ],
     },
+    ganache: {
+      gasLimit: 6000000000,
+      defaultBalanceEther: 10,
+      url: "http://localhost:8545",
+    }
   },
   namedAccounts: {
     deployer: {

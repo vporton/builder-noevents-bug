@@ -97,11 +97,5 @@ module.exports = async ({getNamedAccounts, deployments}) => {
         addItemToCategory(await categories["Software"], await categories["Sources"]);
         log(`created base category structure`);
     }
-    const mydeploy = require('../lib/mydeploy');
-    mydeploy.updateAddress('Files', deployResult.address, buidler.network.name); // or ethers.getContractAt
-    if(await categories["Root"])
-        mydeploy.updateAddress('Root', await categories["Root"], buidler.network.name);
-    if(await categories["Spam"])
-        mydeploy.updateAddress('Spam', await categories["Spam"], buidler.network.name);
 }
 module.exports.tags = ['Files'];
