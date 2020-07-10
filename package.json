@@ -1,0 +1,18 @@
+{
+  "name": "builder-noevents-bug",
+  "version": "1.0.0",
+  "description": "A BUIDLER bug reprise",
+  "main": "index.js",
+  "repository": "https://github.com/vporton/builder-noevents-bug",
+  "author": "Victor Porton",
+  "license": "AGPL",
+  "dependencies": {
+    "@nomiclabs/buidler": "^1.3.8",
+    "@nomiclabs/buidler-ethers": "^2.0.0",
+    "@nomiclabs/buidler-waffle": "^2.0.0",
+    "@nomiclabs/buidler-web3": "^1.3.4",
+    "buidler-deploy": "^0.4.11",
+    "ethereum-waffle": "^3.0.1",
+    "ethers": "^5.0.5"
+  }
+}
