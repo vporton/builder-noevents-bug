@@ -8,7 +8,7 @@
   "license": "AGPL",
   "dependencies": {
     "@nomiclabs/buidler": "^1.3.8",
-    "@nomiclabs/buidler-ethers": "^2.0.0",
+    "@nomiclabs/buidler-ethers": "^2.0.2",
     "@nomiclabs/buidler-waffle": "^2.0.0",
     "@nomiclabs/buidler-web3": "^1.3.4",
     "buidler-deploy": "^0.4.11",
